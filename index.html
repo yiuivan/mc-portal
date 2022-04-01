@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Ivan's Minecraft Server Portal</title>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body>
         <h1>Ivan's Minecraft Server Portal</h1>
@@ -15,6 +16,11 @@
         <form action="http://mc.yiuivan.cc:25568" method="get" target="_blank">
             <button type="submit">Minecraft Dynamic Map</button>
         </form>
-        <button onclick="document.location='downloads.html'">Downloads</button> 
+        <button onclick="document.location='downloads.html'">Downloads</button>
+        <form action="?" method="POST">
+            <div class="g-recaptcha" data-sitekey="6LcFJDcfAAAAANqV00y13GEv6IdB1iEEluoAZc6M"></div>
+            <br/>
+            <input type="submit" value="Submit">
+          </form>
     </body>
 </html>
